@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 # ==========================================
 # 0. 페이지 설정 (가장 위에 위치해야 함)
 # ==========================================
-st.set_page_config(page_title="마지여행사 AI 대시보드", page_icon="✈️", layout="wide")
+st.set_page_config(page_title="AI 대시보드", page_icon="✈️", layout="wide")
 
 load_dotenv()
 azure_oai_endpoint = os.getenv("AZURE_OAI_ENDPOINT")
